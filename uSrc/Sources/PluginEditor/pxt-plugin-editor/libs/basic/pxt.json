@@ -1,0 +1,11 @@
+{
+    "name": "basic",
+    "description": "Extension pour gérer les fonctions basiques",
+    "icon": "./static/libs/basic.png",
+    "files": [
+        "basic.ts"
+    ],
+    "dependencies": {
+        "core": "file:../core"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "blocs.drawCube": "Draw a cube of type : %material with a radius %radius in position %x %y %z",
+  "blocs.onBlockBreak": "When player break a bloc on world",
+  "blocs.onBlockBreakWithType": "When player break a bloc of a specific type on world",
+  "blocs.onBlockPlace": "When player place a bloc on world\n* @param body Function when player place a bloc on world",
+  "blocs.onBlockPlaceWithType": "When player place a bloc of a specific type on world"
+}

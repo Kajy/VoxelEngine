@@ -1,0 +1,113 @@
+{
+    "id": "uCraft",
+    "nickname": "uCraftEditor",
+    "name": "uCraft-Plugin-Editor",
+    "description": "uCraft Plugin Editor",
+    "corepkg": "core",
+    "bundleddirs": [
+        "libs/core",
+        "libs/blocs",
+        "libs/basic"
+    ],
+    "simulator": {
+        "autoRun": false,
+        "streams": false,
+        "aspectRatio": 1.0,
+        "parts": false
+    },
+    "cloud": {
+        "workspace": false,
+        "packages": true,
+        "sharing": true,
+        "publishing": true,
+        "importing": true,
+        "preferredPackages": [],
+        "githubPackages": true
+    },
+   "runtime": {
+        "mathBlocks": true,
+        "logicBlocks": true,
+        "variablesBlocks": true,
+        "listsBlocks": true,
+        "functionBlocks": true,
+        "onStartNamespace": "loops",
+        "onStartColor": "#40bf4a",
+        "onStartWeight": 100
+    },
+    "appTheme": {
+        "accentColor": "#0089BF",
+        "logoUrl": "https://staging.ucraft.io",
+        "logo": "./static/logo.svg",
+        "docsLogo": "./static/logo.square.svg",
+        "portraitLogo": "./static/logo.square.svg",
+        "footerLogo": "./static/logo.square.svg",
+        "homeUrl": "/",
+        "embedUrl": "/",
+        "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+        "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
+        "githubUrl": "https://github.com/Microsoft/pxt-adafruit",
+        "crowdinProject": "kindscript",
+        "docMenu": [
+            {
+                "name": "Support",
+                "path": "https://aka.ms/makecodeadafruitforums"
+            },
+            {
+                "name": "Blocks",
+                "path": "/blocks"
+            },
+            {
+                "name": "JavaScript",
+                "path": "/javascript"
+            },
+            {
+                "name": "Reference",
+                "path": "/reference"
+            },
+            {
+                "name": "Buy",
+                "path": "https://www.adafruit.com/products/3333"
+            }
+        ],
+        "showHomeScreen": true,
+        "homeScreenHero": "./static/getting-started/getting-started.png",
+        "invertedMenu": true,
+        "invertedToolbox": true,
+        "invertedMonaco": true,
+        "monacoToolbox": true,
+        "selectLanguage": true,
+        "simAnimationEnter": "roll in",
+        "simAnimationExit": "roll out",
+        "highContrast": true,
+        "greenScreen": true,
+        "enableTrace": true,
+        "print": true,
+        "hasAudio": true,
+        "usbHelp": [],
+        "extendEditor": true,
+        "extendFieldEditors": true,
+        "disableBlockIcons": true,
+        "blocklyOptions": {
+            "grid": {
+                "spacing": 20,
+                "length": 2,
+                "colour": "rgba(189, 195, 199, 0.20)",
+                "snap": true
+            }
+        },
+        "blocklyColors": {
+            "insertionMarker": "#FFFFFF",
+            "insertionMarkerOpacity": 0.5
+        },
+        "blockColors": {
+            "loops": "#40bf4a",
+            "logic": "#4cbfe6",
+            "math": "#9966ff",
+            "variables": "#FF6680",
+            "text": "#ffab19",
+            "functions": "#005a9e",
+            "arrays": "#8A1C7C"
+        },
+        "allowPackageExtensions": true
+    }
+}

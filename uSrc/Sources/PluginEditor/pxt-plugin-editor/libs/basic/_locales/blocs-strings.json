@@ -1,0 +1,14 @@
+{
+  "BlocType.Gravier|block": "Gravier",
+  "BlocType.Herbe|block": "Herbe",
+  "BlocType.Pierre|block": "Pierre",
+  "BlocType.Sable|block": "Sable",
+  "BlocType.Terre|block": "Terre",
+  "blocs.VarCoords|block": "x %x y %y z %z",
+  "blocs.onDestroyABlock|block": "On destroy a block",
+  "blocs.onPickABlock|block": "On pick a bloc",
+  "blocs.placeBlock|block": "Place a block %bloc",
+  "blocs.teleportPlayer|block": "Teleport player at position %coords",
+  "blocs|block": "blocs",
+  "{id:category}Blocs": "Blocs"
+}

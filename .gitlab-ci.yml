@@ -1,0 +1,29 @@
+image: ubuntu:latest
+
+stages:
+  - build
+
+variables:
+  VERSION:      "1.003"
+  VERSION_FILE: "version.json"
+
+build:
+  stage: build
+  script:
+    - apt-get update
+    - apt-get install zip unzip -y
+    - cd release/
+    - mv ./windows/* .
+    - zip -r ./windows/release.zip ./Ressources ./*.dll ./*.exe
+    - touch "./windows/$VERSION_FILE"
+    - echo "{\"version\":\"$VERSION\"}" >> "./windows/$VERSION_FILE"
+    - rm ./*.dll
+    - rm ./*.exe
+    - mv ./linux/Ucraft .
+    - zip -r ./linux/release.zip ./Ressources ./Ucraft
+    - touch "./linux/$VERSION_FILE"
+    - echo  "{\"version\":\"$VERSION\"}" >> "./linux/$VERSION_FILE"
+    - rm ./Ucraft
+  artifacts:
+    paths:
+      - release/*

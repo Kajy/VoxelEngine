@@ -1,0 +1,12 @@
+{
+    "name": "blocs",
+    "description": "Extension pour gérer les blocs",
+    "icon": "./static/libs/blocs.png",
+    "files": [
+        "blocs.ts",
+        "enum.ts"
+    ],
+    "dependencies": {
+        "core": "file:../core"
+    }
+}

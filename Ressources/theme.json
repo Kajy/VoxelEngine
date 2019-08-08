@@ -1,0 +1,14 @@
+{
+  "window": {
+    "radius": 0,
+    "headerHeight": 0,
+    "colorFocused": {
+      "intensity": 0,
+      "alpha": 128
+    },
+    "colorUnfocused": {
+      "intensity": 0,
+      "alpha": 128
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "ucraft-plugin-editor",
+    "version": "1.0.0",
+    "description": "uCraft plugin editor",
+    "author": "Illiasse",
+    "main": "main.js",
+    "scripts": {
+        "start": "node_modules/.bin/electron ."
+    },
+    "devDependencies": {
+        "electron": "*",
+        "pxt-microbit": "*"
+    },
+    "dependencies": {
+        "pxt-core": "^5.2.10"
+    }
+}

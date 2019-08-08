@@ -1,0 +1,10 @@
+{
+  "blocs.VarCoords": "Coordonnées (variable)",
+  "blocs.VarCoords|param|x": "Coordonnée X",
+  "blocs.VarCoords|param|y": "Coordonnée Y",
+  "blocs.VarCoords|param|z": "Coordonnée Z",
+  "blocs.onDestroyABlock": "When player take a bloc",
+  "blocs.onPickABlock": "Lorsque le joueur prend un bloc",
+  "blocs.placeBlock": "Placer un bloc",
+  "blocs.teleportPlayer": "Placer un bloc"
+}

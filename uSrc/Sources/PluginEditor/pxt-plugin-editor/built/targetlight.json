@@ -1,0 +1,84 @@
+{
+  "id": "uCraft",
+  "nickname": "uCraftEditor",
+  "name": "uCraft-Plugin-Editor",
+  "description": "uCraft Plugin Editor",
+  "corepkg": "core",
+  "simulator": {
+    "autoRun": false,
+    "streams": false,
+    "aspectRatio": 1,
+    "parts": false
+  },
+  "cloud": {
+    "workspace": false,
+    "packages": true,
+    "sharing": true,
+    "publishing": true,
+    "importing": true,
+    "preferredPackages": [],
+    "githubPackages": true
+  },
+  "runtime": {
+    "mathBlocks": true,
+    "logicBlocks": true,
+    "variablesBlocks": true,
+    "listsBlocks": true,
+    "functionBlocks": true,
+    "onStartNamespace": "loops",
+    "onStartColor": "#40bf4a",
+    "onStartWeight": 100
+  },
+  "versions": {
+    "target": "0.1.0",
+    "pxt": "4.1.22"
+  },
+  "blocksprj": {
+    "id": "blocksprj",
+    "config": {
+      "name": "{0}",
+      "dependencies": {
+        "core": "*"
+      },
+      "description": "",
+      "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+      ],
+      "additionalFilePaths": []
+    },
+    "files": {
+      "README.md": "",
+      "main.blocks": "<xml xmlns=\"http://www.w3.org/1999/xhtml\">\n  <block type=\"forever\"></block>\n</xml>",
+      "main.ts": "\n"
+    }
+  },
+  "tsprj": {
+    "id": "tsprj",
+    "config": {
+      "name": "{0}",
+      "dependencies": {
+        "core": "*"
+      },
+      "description": "",
+      "files": [
+        "main.ts",
+        "README.md"
+      ],
+      "additionalFilePaths": []
+    },
+    "files": {
+      "README.md": "",
+      "main.ts": "\n"
+    }
+  },
+  "compile": {
+    "isNative": false,
+    "hasHex": false,
+    "switches": {},
+    "jsRefCounting": false,
+    "vtableShift": 2,
+    "noSourceInFlash": true
+  }
+}

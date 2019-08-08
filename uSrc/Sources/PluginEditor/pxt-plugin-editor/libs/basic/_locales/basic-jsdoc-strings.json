@@ -1,0 +1,5 @@
+{
+  "basic.onCommand": "When player put a command on chat",
+  "basic.onPlayerChat": "When player put something on chat",
+  "basic.say": "Player write in chat"
+}

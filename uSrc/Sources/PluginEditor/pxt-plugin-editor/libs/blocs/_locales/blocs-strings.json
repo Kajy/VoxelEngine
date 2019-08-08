@@ -1,0 +1,14 @@
+{
+  "MaterialType.Circle|block": "Circle",
+  "MaterialType.Cross|block": "Cross",
+  "blocs.drawCube|block": "Draw a cube of type : %material with a radius %radius in position %x %y %z",
+  "blocs.onBlockBreakWithType|block": "On break bloc of type : $materials",
+  "blocs.onBlockBreak|block": "On block break",
+  "blocs.onBlockPlaceWithType|block": "On place bloc of type : $materials",
+  "blocs.onBlockPlace|block": "On block place",
+  "blocs|block": "blocs",
+  "{id:category}Blocs": "Blocs",
+  "{id:group}Block functions": "Block functions",
+  "{id:group}Event bloc break": "Event bloc break",
+  "{id:group}Event bloc place": "Event bloc place"
+}

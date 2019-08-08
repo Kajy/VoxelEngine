@@ -1,0 +1,9 @@
+{
+  "basic.onCommand|block": "On chat command %cmd",
+  "basic.onPlayerChat|block": "On player write %msg on chat",
+  "basic.say|block": "Write %msg on chat",
+  "basic|block": "basic",
+  "{id:category}Basic": "Basic",
+  "{id:group}Basic functions": "Basic functions",
+  "{id:group}Chat events": "Chat events"
+}

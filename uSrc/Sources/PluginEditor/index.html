@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <webview id="webview" style="position:absolute; left:0; top:0; right:0; bottom:0" />
+  <script>
+    const webview = document.getElementById("webview")
+    const url = `http://0.0.0.0:3232/${window.location.hash}#liveforcelang=fr`
+    webview.src = url
+  </script>
+</body>
+
+</html>
