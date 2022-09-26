@@ -12,6 +12,6 @@
         "pxt-microbit": "*"
     },
     "dependencies": {
-        "pxt-core": "^5.2.10"
+        "pxt-core": "^5.37.83"
     }
 }
